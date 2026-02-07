@@ -1,0 +1,98 @@
+:root {
+    --bg-color: white;
+    --for-color: #08090B;
+    --bg-color-hover: #888;
+    --bg-color-hover-dark: #222;
+    --text-color-link: #18E299;
+    --text-color-hover: #90ECC5;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: inter;
+    min-height: 1000px;
+  color: var(--bg-color);
+   background-image: url('images/bg-light.svg');
+ background-color: #cccccc;
+ 
+}
+#main{
+   background-image: url('images/bg-light.svg');
+ background-color: #cccccc;
+ 
+margin:0px 10%;
+padding: 5px;
+}
+#header{
+     position: fixed;
+     width: 75%;
+}
+#menu{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 2fr 7fr 3fr;
+}
+#menu div{
+    text-align: center;
+}
+#menu .third{
+   
+text-align: end;
+}
+#menu img{
+    height: 24px;
+}
+
+#menu ul{
+    
+}
+#menu ul li{
+    display: inline;
+    opacity: 80%;
+    
+}
+#menu ul li a{
+    color: var(--bg-color);
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px 10px;
+}
+#menu ul li a:hover{
+    border: 0.1px solid var(--bg-color);
+    
+    border-radius: 10px;
+}
+#menu div div button{
+    
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: large;
+}
+ #menu div .dark{
+background-color: rgb(18, 128, 152);
+/* opacity: 5%; */
+color: var(--bg-color);
+border-radius: 16px;
+padding: 8px 16px;
+}
+#menu div .light{
+    border-radius: 16px;
+    padding: 8px 16px;
+}
+
+#content{
+    margin-top: 32px;
+}
+#preview{
+    margin-top: 50px;
+}
+
+#preview img{
+    border-radius: 16px;
+}
