@@ -75,7 +75,7 @@ text-align: end;
     font-size: large;
 }
  #menu div .dark{
-background-color: rgb(18, 128, 152);
+background-color: rgb(15,86,122);
 /* opacity: 5%; */
 color: var(--bg-color);
 border-radius: 16px;
@@ -87,7 +87,7 @@ padding: 8px 16px;
 }
 
 #content{
-    margin-top: 32px;
+    margin-top: 64px;
 }
 #preview{
     margin-top: 50px;
@@ -95,4 +95,70 @@ padding: 8px 16px;
 
 #preview img{
     border-radius: 16px;
+}
+#hero{
+ display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;     
+align-items: center;
+}
+#hero div h1{
+    padding: 20px;
+align-items: center;
+font-size: 56px;
+text-align: center;
+}
+#hero div p{
+    font-size: 18px;
+    padding: 10px;
+}
+ #hero .email{
+    color: #fff;
+    border-radius: 20px;
+} 
+ #hero .email input{
+    text-decoration: none;
+    border-radius: 20px;
+    border: 0.15px solid #fff;
+ background-color: rgba(240, 235, 235, 0.1); 
+     padding: 12px 10px;
+    min-width: 250px;
+  outline: none;
+  color: #fff;
+  border: none;
+font-weight: bold;
+}
+#hero .email input::placeholder {
+  color: white;
+  opacity: 0.5;
+}
+#hero .email button{
+    text-decoration: none;
+    border-radius: 20px;
+    border: 0.15px solid #fff;
+    background-color: #fff;
+    padding: 10px 15px;
+  outline: none;
+  border: none;
+} 
+
+#features{
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;     
+align-items: center;
+}
+
+#features div h2{
+    padding: 20px;
+align-items: center;
+font-size: 32px;
+text-align: center;
+}
+
+#features div p{
+     font-size: 18px;
+    padding: 10px;
 }
