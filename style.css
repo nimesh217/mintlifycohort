@@ -1,164 +1,164 @@
 :root {
-    --bg-color: white;
-    --for-color: #08090B;
-    --bg-color-hover: #888;
-    --bg-color-hover-dark: #222;
-    --text-color-link: #18E299;
-    --text-color-hover: #90ECC5;
-
+  --bg-color: white;
+  --for-color: #08090b;
+  --bg-color-hover: #888;
+  --bg-color-hover-dark: #222;
+  --text-color-link: #18e299;
+  --text-color-hover: #90ecc5;
 }
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: inter;
-    min-height: 1000px;
+  font-family: inter;
+  width: 75%;
+  min-height: 1000px;
   color: var(--bg-color);
-   background-image: url('images/bg-light.svg');
- background-color: #cccccc;
- 
+  background-image: url("images/bg-light.svg");
+  background-repeat: no-repeat;
+  background-color: #fff;
+  background-size: contain;
+  background-position: center calc(1% - 225px);
 }
-#main{
-   background-image: url('images/bg-light.svg');
- background-color: #cccccc;
- 
-margin:0px 10%;
-padding: 5px;
+#main {
+  /* background-image: url('images/bg-light.svg');
+    background-repeat:no-repeat;  */
+  /* background-color: #cccccc; */
+
+  margin: 0px 10%;
+  padding: 5px;
 }
-#header{
-     position: fixed;
-     width: 75%;
+#header {
+  position: fixed;
+  width: 75%;
 }
-#menu{
-    padding: 10px;
-    display: grid;
-    grid-template-columns: 2fr 7fr 3fr;
+#menu {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 2fr 7fr 3fr;
 }
-#menu div{
-    text-align: center;
+#menu div {
+  text-align: center;
 }
-#menu .third{
-   
-text-align: end;
+#menu .third {
+  text-align: end;
 }
-#menu img{
-    height: 24px;
+#menu img {
+  height: 24px;
 }
 
-#menu ul{
-    
+#menu ul {
 }
-#menu ul li{
-    display: inline;
-    opacity: 80%;
-    
+#menu ul li {
+  display: inline;
+  opacity: 80%;
 }
-#menu ul li a{
-    color: var(--bg-color);
-    text-decoration: none;
-    font-size: 15px;
-    padding: 10px 10px;
+#menu ul li a {
+  color: var(--bg-color);
+  text-decoration: none;
+  font-size: 15px;
+  padding: 10px 10px;
 }
-#menu ul li a:hover{
-    border: 0.1px solid var(--bg-color);
-    
-    border-radius: 10px;
+#menu ul li a:hover {
+  border: 0.1px solid var(--bg-color);
+
+  border-radius: 10px;
 }
-#menu div div button{
-    
-    padding: 5px 10px;
-    border-radius: 8px;
-    font-size: large;
+#menu div div button {
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-size: large;
 }
- #menu div .dark{
-background-color: rgb(15,86,122);
-/* opacity: 5%; */
-color: var(--bg-color);
-border-radius: 16px;
-padding: 8px 16px;
+#menu div .dark {
+  background-color: rgb(15, 86, 122);
+  /* opacity: 5%; */
+  color: var(--bg-color);
+  border-radius: 16px;
+  padding: 8px 16px;
 }
-#menu div .light{
-    border-radius: 16px;
-    padding: 8px 16px;
+#menu div .light {
+  border-radius: 16px;
+  padding: 8px 16px;
 }
 
-#content{
-    margin-top: 64px;
+#content {
+  margin-top: 64px;
 }
-#preview{
-    margin-top: 50px;
+#preview {
+  margin-top: 50px;
 }
 
-#preview img{
-    border-radius: 16px;
+#preview img {
+  border-radius: 16px;
 }
-#hero{
- display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;     
-align-items: center;
+#hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
 }
-#hero div h1{
-    padding: 20px;
-align-items: center;
-font-size: 56px;
-text-align: center;
+#hero div h1 {
+  padding: 20px;
+  align-items: center;
+  font-size: 56px;
+  text-align: center;
 }
-#hero div p{
-    font-size: 18px;
-    padding: 10px;
+#hero div p {
+  font-size: 18px;
+  padding: 10px;
 }
- #hero .email{
-    color: #fff;
-    border-radius: 20px;
-} 
- #hero .email input{
-    text-decoration: none;
-    border-radius: 20px;
-    border: 0.15px solid #fff;
- background-color: rgba(240, 235, 235, 0.1); 
-     padding: 12px 10px;
-    min-width: 250px;
+#hero .email {
+  color: #fff;
+  border-radius: 20px;
+}
+#hero .email input {
+  text-decoration: none;
+  border-radius: 20px;
+  border: 0.15px solid #fff;
+  background-color: rgba(240, 235, 235, 0.1);
+  padding: 12px 10px;
+  min-width: 250px;
   outline: none;
   color: #fff;
   border: none;
-font-weight: bold;
+  font-weight: bold;
 }
 #hero .email input::placeholder {
   color: white;
   opacity: 0.5;
 }
-#hero .email button{
-    text-decoration: none;
-    border-radius: 20px;
-    border: 0.15px solid #fff;
-    background-color: #fff;
-    padding: 10px 15px;
+#hero .email button {
+  text-decoration: none;
+  border-radius: 20px;
+  border: 0.15px solid #fff;
+  background-color: #fff;
+  padding: 10px 15px;
   outline: none;
   border: none;
-} 
-
-#features{
-display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;     
-align-items: center;
 }
 
-#features div h2{
-    padding: 20px;
-align-items: center;
-font-size: 32px;
-text-align: center;
+#features {
+  color: #08090b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
 }
 
-#features div p{
-     font-size: 18px;
-    padding: 10px;
+#features div h2 {
+  padding: 20px;
+  align-items: center;
+  font-size: 32px;
+  text-align: center;
+}
+
+#features div p {
+  font-size: 18px;
+  padding: 10px;
 }
