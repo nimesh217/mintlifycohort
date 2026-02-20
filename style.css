@@ -244,3 +244,23 @@ align-items: end;
 #case-study .green{
   color: #47997b;
 }
+#case-study .row{
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+   grid-template-columns: repeat(4, 1fr); 
+       grid-auto-flow: column; 
+       border-radius: 10px ;
+grid-auto-columns: calc(25% - 20px); 
+overflow-x: auto;     
+  overflow-y: hidden; 
+   gap: 20px;
+}
+
+#case-study .row > div {
+    
+    grid-row: 1; 
+    
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; 
+}
