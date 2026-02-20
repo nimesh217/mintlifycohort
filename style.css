@@ -149,7 +149,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  align-items: center;
 }
 
 #features div h2 {
@@ -162,4 +161,86 @@ body {
 #features div p {
   font-size: 18px;
   padding: 10px;
+  color: #4b5363;
+}
+
+
+#features .cardmain{
+display: flex;
+flex-direction: row;
+}
+
+#features .cardmain .card{
+  border: #d1d3d8 solid 1px;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 10px;
+}
+#features .cardmain .card .green{
+  color: #47997b;
+  font-size: 14px;
+ font-weight: bold;
+}
+
+.svg-con{
+width: 100%;      /* Makes the image scale with the div's width */
+    height: auto;     /* Maintains the aspect ratio */
+    display: block;   /* Helps remove extra space issues */
+    margin: auto;
+}
+#Intelligent{
+    border: #d1d3d8 solid 1px;
+  border-radius: 10px;
+  margin-top: 30px;
+    color: #08090b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  
+}
+
+ .green{
+  color: #47997b;
+   font-size: 14px;
+ font-weight: bold;
+}
+
+#Intelligent h3{
+  padding: 10px;
+  font-size: 24px;
+   color: #4b5363;
+   margin: 10px 20px;
+}
+
+#Intelligent p{
+   margin: 10px 20px;
+   padding: 10px;
+}
+
+#enterprise{
+  background-color: hsl(228, 26%, 96%);
+  color: #08090b;
+  padding: 20px 40px;
+    /* display: flex;
+flex-direction: row; */
+
+}
+
+#enterprise h2{
+    padding: 20px;
+  font-size: 32px;
+} 
+#enterprise .cardmain{
+  display: flex;
+flex-direction: row;
+align-items: end;
+}
+
+#case-study{
+  color: #08090b;
+}
+#case-study .green{
+  color: #47997b;
 }
