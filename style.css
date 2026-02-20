@@ -29,12 +29,13 @@ body {
     background-repeat:no-repeat;  */
   /* background-color: #cccccc; */
 
-  margin: 0px 10%;
+  margin: 0px 20%;
   padding: 5px;
+  display: flex;
 }
 #header {
   position: fixed;
-  width: 75%;
+  width: 65%;
 }
 #menu {
   padding: 10px;
